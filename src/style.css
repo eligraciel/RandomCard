@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  width: 250px;
+  height: 350px;
+}
+
+.cardRed {
+  color: red;
+  font-size: 70px;
+  margin-left: 20px;
+}
+
+.cardBlack {
+  color: black;
+  font-size: 70px;
+  margin-left: 20px;
+}
+
+#center {
+  font-size: 70px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#top {
+  font-size: 70px;
+  justify-content: center;
+}
+
+#bottom {
+  font-size: 70px;
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+}
